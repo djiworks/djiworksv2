@@ -81,12 +81,11 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="images/slides/nuit.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
+              <h1>Qui suis-je ?</h1>
               <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and rightules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
             </div>
           </div>
         </div>
@@ -94,9 +93,9 @@
           <img src="images/slides/nuit.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
+              <h1>Gallerie photos</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id  id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <p><a class="btn btn-lg btn-success" href="#" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -104,9 +103,13 @@
           <img src="images/slides/nuit.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisiselit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <h1>Mes compétences</h1>
+              <p>
+              	Découvrez mes projets web <code>JavaScript</code>, 
+              	mes applications mobiles <code>Objective-C</code> 
+              	ou encore mes logiciels <code>Java</code>
+              </p>
+              <p><a class="btn btn-success btn-lg" href="#" role="button">Voir +</a></p>
             </div>
           </div>
         </div>
@@ -125,20 +128,11 @@
 	   </p>
        <p class="text-center">
        	<small>&copy; DjiWorks by Djothi Grondin 2014. | Tous droits réservés | <a href="#">Mentions légales</a> | Site compatible Responsive Design</small>
+       </p>
+       <p class="text-center hidden-xs"><img src="images/used/html5.png" alt="Logo HTML5"/></p>
     </footer>
-    
 
-    
-    <script>
-// Only enable if the document has a long scroll bar
-// Note the window height + offset
-if ( ($(window).height() + 100) < $(document).height() ) {
-    $('#top-link-block').removeClass('hidden').affix({
-        // how far to scroll down before link "slides" into view
-        offset: {top:100}
-    });
-}
-</script>
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
