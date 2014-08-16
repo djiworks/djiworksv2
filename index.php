@@ -45,7 +45,7 @@
 	<nav class="navbar navbar-default navbar-static-top" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-header">
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-menu">
 		        <span class="sr-only">Toggle navigation</span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
@@ -55,7 +55,11 @@
 		    </div>
 		    
 		    
-		    <div class="collapse navbar-collapse">
+		    <div class="collapse navbar-collapse" id="collapse-menu">
+		    	<ul class="nav navbar-nav">
+		    		<li><a href="#"><span class="glyphicon glyphicon-picture"></span> Gallerie photos</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-bookmark"></span> CV en ligne</a></li>
+		    	</ul>
 			    <ul class="nav navbar-nav navbar-right">
 					<li><a href="#">Facebook</a></li>
 					<li><a href="#">Twitter</a></li>
@@ -67,7 +71,7 @@
 	</nav>
 	</div>
 	
-	<!-- Navigation Bar -->
+	<!-- Caroussel Bar -->
 	<div id="slideshow" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
