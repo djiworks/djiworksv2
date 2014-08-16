@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- Les meta -->
-    <title> DjiWorks, Site personnel de Djothi Grondin, Portefolio des photographies, du multim&eacute;dia et du d&eacute;veloppement web, mobile et logiciel</title>
+    <title> DjiWorks, Site personnel de Djothi Grondin, Portefolio des photographies, du multim&eacute;dia et des d&eacute;veloppements web, mobiles et logiciels</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="djothi, grondin, site personnel, djothi grondin, photo de djothi, site internet de djothi, site web de djothi, la r&eacute;union, &eacute;le de la r&eacute;union, 974, djiworks"/>
     
