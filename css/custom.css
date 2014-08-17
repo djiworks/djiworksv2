@@ -1,5 +1,19 @@
+@charset "utf-8";
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 /* CUSTOMIZE GLOBAL STYLE
 -------------------------------------------------- */
+body 
+{
+	font-family: 'Open Sans';
+}
+
+h1
+{
+	padding-left : 20px;
+}
+
 .green
 {
 	color: #008000 !important;

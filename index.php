@@ -39,100 +39,13 @@
 	<link rel="apple-touch-icon" sizes="144x144" href="./images/used/touch-icon-ipad-retina.png" />
 </head>
 
-<body>
-	<!-- Navigation Bar -->
-	<div class="navbar-wrapper">
-	<nav class="navbar navbar-default navbar-static-top" role="navigation">
-		<div class="container-fluid">
-			<div class="navbar-header">
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-menu">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="#"><img alt="Logo djiworks" src="images/used/logo.png"/></a>
-		    </div>
-		    
-		    
-		    <div class="collapse navbar-collapse" id="collapse-menu">
-		    	<ul class="nav navbar-nav">
-		    		<li><a href="#"><span class="glyphicon glyphicon-picture green"></span> Gallerie photos</a></li>
-					<li><a href="#"><span class="glyphicon glyphicon-bookmark green"></span> CV en ligne</a></li>
-		    	</ul>
-			    <ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Facebook</a></li>
-					<li><a href="#">Twitter</a></li>
-					<li><a href="#">Google+</a></li>
-					<li><a href="#">Viadeo</a></li>
-				</ul>
-		    </div>
-		</div>
-	</nav>
-	</div>
-	
-	<!-- Caroussel Bar -->
-	<div id="slideshow" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
-        <li data-target="#slideshow" data-slide-to="1"></li>
-        <li data-target="#slideshow" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Qui suis-je ?</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and rightules.</p>
-              <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="images/slides/nuit.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Gallerie photos</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id  id elit.</p>
-              <p><a class="btn btn-lg btn-success" href="#" role="button">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="images/slides/nuit.jpg" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Mes compétences</h1>
-              <p>
-              	Découvrez mes projets web <code>JavaScript</code>, 
-              	mes applications mobiles <code>Objective-C</code> 
-              	ou encore mes logiciels <code>Java</code>
-              </p>
-              <p><a class="btn btn-success btn-lg" href="#" role="button">Voir +</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#slideshow" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#slideshow" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div>
-        
-        
-	<!-- FOOTER -->
-    <footer>
-       <p class="text-center">
-       	<a href="#" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
-       		<span class= "glyphicon glyphicon-chevron-up green"></span> Haut de page
-	   	</a>
-	   </p>
-       <p class="text-center">
-       	<small>&copy; DjiWorks by Djothi Grondin 2014. | Tous droits réservés | <a href="#">Mentions légales</a> | Site compatible Responsive Design</small>
-       </p>
-       <p class="text-center hidden-xs"><img src="images/used/html5.png" alt="Logo HTML5"/></p>
-    </footer>
-
-
+<body>	
+	<?php
+		require_once("./menu.html");
+		require_once("./banner.html");
+		require_once("./presentation.html");
+		require_once("./footer.html");
+	?>  
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
