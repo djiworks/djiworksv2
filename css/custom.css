@@ -19,6 +19,11 @@ h1
 	color: #008000 !important;
 }
 
+.blue
+{
+	color: #223376 !important;
+}
+
 .navbar-default .navbar-nav > li > a
 {
 	color: #223376;
@@ -27,6 +32,29 @@ h1
 .pull-right
 {
 	margin-right: 20px;
+}
+
+#projet
+{
+	background-color: #056305;
+	color: #FFF;
+}
+
+#projet a
+{
+	color: #FFF;
+}
+
+.divide
+{
+	border-right: 1px solid #FFF;
+}
+
+.pict
+{
+	height: 64px;
+	width: 64px;
+	margin-right: 15px;
 }
 
 

@@ -44,6 +44,8 @@
 		require_once("./menu.html");
 		require_once("./banner.html");
 		require_once("./presentation.html");
+		require_once("./projet.html");
+		require_once("./photo.html");
 		require_once("./footer.html");
 	?>  
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
