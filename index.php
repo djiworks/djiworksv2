@@ -46,11 +46,14 @@
 		require_once("./presentation.html");
 		require_once("./projet.html");
 		require_once("./photo.html");
+		//require_once("./favoris.html"); divers liens, ressources etc..
 		require_once("./footer.html");
 	?>  
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>	
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bind-polyfill.min.js"></script>
+	<script src="js/smooth-scroll.min.js"></script>
 </body>
 </html>
