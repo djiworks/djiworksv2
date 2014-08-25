@@ -46,7 +46,7 @@
 		require_once("./presentation.html");
 		require_once("./projet.html");
 		require_once("./photo.html");
-		//require_once("./favoris.html"); divers liens, ressources etc..
+		require_once("./divers.html");
 		require_once("./footer.html");
 	?>  
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
