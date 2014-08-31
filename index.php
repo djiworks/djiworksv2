@@ -55,5 +55,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bind-polyfill.min.js"></script>
 	<script src="js/smooth-scroll.min.js"></script>
+	<script>
+    	smoothScroll.init();
+	</script>
 </body>
 </html>
