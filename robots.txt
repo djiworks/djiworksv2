@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /cloud/
+Disallow: /gallery/
+Disallow: /dev/
+Allow: /
+Sitemap: http://www.djiworks.fr/sitemap.xml

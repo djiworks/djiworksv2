@@ -46,8 +46,9 @@
 		require_once("./presentation.html");
 		require_once("./projet.html");
 		require_once("./photo.html");
-		require_once("./divers.html");
+		#require_once("./divers.html");
 		require_once("./footer.html");
+		require_once("./mentions.html");
 	?>  
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

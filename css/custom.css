@@ -34,13 +34,13 @@ h1
 	margin-right: 20px;
 }
 
-#projets
+#projets, #divers
 {
 	background-color: #056305;
 	color: #FFF;
 }
 
-#projets a
+#projets a, #divers a
 {
 	color: #FFF;
 }
@@ -60,6 +60,25 @@ h1
 .media-body
 {
 	text-align: justify;
+}
+
+.align-ver
+{
+	margin-top: 5%;
+	vertical-align: middle;
+}
+
+.galerie
+{
+	height: 100px;
+	width: 100px;
+	margin-top: 5px;
+}
+
+.alert
+{
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
 /* CUSTOMIZE THE NAVBAR
